@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.border-yellow-500 {
+  border-color: #FFD700 !important;
+}
 
 .banner-wrapper {
   @apply w-full h-40 overflow-hidden relative;

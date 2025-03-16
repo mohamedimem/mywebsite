@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         pink: "#d22d68",
         yellow: "#eed062",
+        gold: '#FFD700',
       },
     },
   },

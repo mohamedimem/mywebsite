@@ -1,12 +1,14 @@
 import React from "react";
-import { FaReact } from "react-icons/fa";
-import { FaVuejs } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
+import { FaJava } from "react-icons/fa";
+import { FaRegBookmark } from "react-icons/fa";
+
 import { LuGraduationCap } from "react-icons/lu";
 import ifedaApp from '@/public/Mobile design.png';
 import ifedaWeb from "@/public/a (1).png";
 import gameHubImage from "@/public/game.png";
 import GamePic from "@/public/game.png";
-import visualizationImage from "@/public/d3.png";
+import YoutubeImage from "@/public/youtube.png";
 
 export const links = [
     {
@@ -43,7 +45,38 @@ export const headerLanguageMap = {
     Skills: '我的技能',
     Experiences: '我的经历',
 }
-
+export const certificationsData = [
+    {
+        title: "Oracle Certified Associate, Java SE 8 Programmer",
+        location: React.createElement("span", {},
+            React.createElement("a", {
+                href: "https://ifeda.vercel.app",
+                style: { textDecoration: 'underline' },
+                target: "_blank"
+            }, "Oracle"),
+            " "
+        ),
+        description:
+            "An Oracle Certified Associate, Java SE 8 Programmer has demonstrated knowledge of object-oriented concepts, the Java programming language and general knowledge of Java platforms and technologies.",
+        icon: React.createElement(FaStar),
+        date: "2025 Avril",
+    },
+    {
+        title: "Certified Flutter Developer",
+        location: React.createElement("span", {},
+            React.createElement("a", {
+                href: "https://media.licdn.com/dms/image/v2/D4E2DAQG78q8Ul5iNSA/profile-treasury-image-shrink_1280_1280/profile-treasury-image-shrink_1280_1280/0/1708725063995?e=1742760000&v=beta&t=GHUnRk_GhnQU-8i5MX3UqJgia-VhigK6xEu9qlM6xKQ",
+                style: { textDecoration: 'underline' },
+                target: "_blank"
+            }, "TechLink"),
+            " "
+        ),
+        description:
+            "Complete 6 months bootcamp of Flutter developping mobile Full stack applications.",
+        icon: React.createElement(FaStar),
+        date: "2023 Feb - 2023 September",
+    },
+]
 export const experiencesData = [
     
     {
@@ -58,7 +91,7 @@ export const experiencesData = [
         ),
         description:
             "Developed Full stack Mobile Application using Flutter as Front-End, and FireBase as a Backend, Also i was responsible for System Design and Modelling the necessary Component of the mobile application.",
-        icon: React.createElement(FaVuejs),
+        icon: React.createElement(FaStar),
         date: "2024 Feb - 2024 December",
     },
     {
@@ -66,7 +99,7 @@ export const experiencesData = [
         location: "Higher Institue of Informatics | Tunisia",
         description:
             "Graduated with a Masters Degree in Computer Science,Gained foundational knowledge in Machine Learning, AI and modeling.",
-        icon: React.createElement(FaReact),
+        icon: React.createElement(FaStar),
         date: "2023 May - 2025 Juin",
     },
     {
@@ -92,14 +125,14 @@ export const experiencesDataZn = [
         "title": "前端实习生",
         "location": "蔚来汽车（中国武汉）",
         "description": `参与团队多个平台的迭代开发，独立完成内部告警平台的值班表页面开发。协助开发蔚来第三代场站列表与详情页，集成百度地图 API 实现定位与选点功能。优化任务魔棒页面，新增管理员角色，重构权限管理逻辑，用头像列表展示管理员，并整合飞书 API 实现消息发送。自定义 Element-UI 级联选择组件，解决全选德国 2000+ 城市时浏览器卡死问题，通过懒加载优化显著提升性能。遵循 Agile/Scrum 开发流程，进行两周一迭代，通过 Jira 跟进项目需求，设计技术方案，并与测试、后端、产品及 设计团队密切对接。`,
-        "icon": React.createElement(FaVuejs),
+        "icon": React.createElement(FaStar),
         "date": "2022年8月 - 2022年12月"
     },
     {
         "title": "前端开发",
         "location": "武汉大学大数据研究院",
         "description": "使用umi（React框架）和Ant Design Pro开发和维护Finknow，一个金融知识图谱查询和分析平台。利用基于G6的React图分析工具包graphin开发了股权网络穿透图，增强了数据可视化功能。",
-        "icon": React.createElement(FaReact),
+        "icon": React.createElement(FaStar),
         "date": "2022年5月 - 2022年8月"
     },
     {
@@ -150,14 +183,14 @@ export const projectsData = [
         "demoUrl": "https://play.google.com/store/apps/details?id=com.imem.ifeda"
     },
     {
-        title: "Global Wealth Spectrum Visualisation",
+        title: "Code With Imem",
         title_zh: '世界财富可视化光谱',
-        description: "This interactive visualization explores how tax policies influence wealth, how industries impact fortunes differently by gender, and how these effects vary across continents. Dive into our data to uncover the complex layers of global wealth.",
+        description: "This is my Youtube channel where i put some tutorials and some of my projects in English to help others. I learned a lot from scripting a video to editing and also to choose an prepare thumbnails. Most importantly I improved the way i communicate.",
         desc_zh: "交互式可视化图表探讨了税收政策如何影响财富、不同行业对不同性别的财富的影响以及这些影响在各大洲之间的差异。深入了解我们的数据，揭示全球财富的复杂层次。",
-        tags: ["d3.js", "HTML", "CSS", "Vanilla JavaScript"],
-        imageUrl: visualizationImage,
-        projectUrl: 'https://github.com/Codefreyy/d3-evolution-visualisation',
-        demoUrl: 'https://global-wealth-spectrum.netlify.app/',
+        tags: ["Flutter", "Tutorials", "Linux","Ubuntu"],
+        imageUrl: YoutubeImage,
+        projectUrl: 'https://www.youtube.com/@CodeWithImem',
+        demoUrl: 'https://www.youtube.com/@CodeWithImem',
     },
 
 
