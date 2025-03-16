@@ -2,10 +2,10 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import knowledgeSharingPlatformImage from '@/public/knowledge-sharing-platform.png';
-import breadditImage from "@/public/breaddit.png";
+import ifedaApp from '@/public/ifeda post.png';
+import ifedaWeb from "@/public/a (1).png";
 import gameHubImage from "@/public/game-hub.png";
-import typingSpeedImage from "@/public/typing-speed.png";
+import typingSpeedImage from "@/public/a (1).png";
 import visualizationImage from "@/public/d3.png";
 
 export const links = [
@@ -123,13 +123,13 @@ export type ProjectTags = typeof projectsData[number]["tags"];
 
 export const projectsData = [
     {
-        "title": "Ethical Digital Nation Collaborative Platform",
+        "title": "Arabic Summary application",
         "title_zh": "数字道德国家协作平台",
         "description":
-            "A collaborative platform enhancing cooperation among Scottish higher education institutions in digital ethics.",
+            "A powerful Mobile Application for people who wants to read books in Arabic language. The app provides a summary of the book in Arabic language. ",
         "desc_zh": "旨在促进苏格兰高校在数字道德领域合作的协作平台。该平台集成用户访谈、工作坊、OAuth登录、最新数字博客RSS feed显示、完备的事件管理系统（包含高级评分与评论功能）以及注重可访问性的响应式设计。",
-        "tags": ["React", "Next.js 14", "TypeScript", "TailwindCSS", "Convex", "Clerk"],
-        "imageUrl": knowledgeSharingPlatformImage,
+        "tags": ["Flutter", "FireBase", "Riverpod", ],
+        "imageUrl": ifedaApp,
         "projectUrl": "https://github.com/Codefreyy/Ethical-Digital-Nation",
         "demoUrl": "https://yujie-ethical-digital-nation.netlify.app/"
     },
@@ -145,14 +145,14 @@ export const projectsData = [
         demoUrl: 'https://joy-typing-speed.netlify.app/',
     },
     {
-        title: "Breddit",
+        title: "Website for Mobile App",
         title_zh: "社交新闻论坛",
         description:
-            `A modern full-stack Reddit clone with infinite scrolling, secure NextAuth Google authentication, and a custom feed for authenticated users. It uses Upstash Redis for caching and React-Query for efficient, responsive data fetching with optimistic updates.
+            `A modern Website to market the application and introduce the user to the idea of summary application.
             `,
         desc_zh: "一个现代且简洁的Reddit克隆项目，使用Next.js、TypeScript和Tailwind CSS构建。项目功能包括无限滚动动态加载帖子、NextAuth与Google认证、为认证用户提供自定义Feed、高级缓存、乐观更新、React-Query数据获取、美观的帖子编辑器、图片上传和链接预览、以及完整的评论功能。",
         tags: ["Next.js", "TypeScript", "Upstash", "React-Query", "TailwindCSS"],
-        imageUrl: breadditImage,
+        imageUrl: ifedaWeb,
         projectUrl: 'https://github.com/Codefreyy/Breddit',
         demoUrl: 'https://joy-breddit.vercel.app/',
     },
