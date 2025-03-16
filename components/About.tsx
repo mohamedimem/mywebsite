@@ -40,21 +40,21 @@ export default function About() {
         My journey into programming kicked off during my undergrad in
         <span className="font-medium italic">
           {" "}
-          Digital Publishing
+          College
         </span>{" "}
         at {}
         <span className="italic underline">
-          <a href="https://en.wikipedia.org/wiki/Wuhan_University" target="_blank">
-            Wuhan University.
+          <a href="http://www.isi.rnu.tn/" target="_blank">
+            Institue of Computer Science
           </a>
         </span>{" "}
-        As a freshman, I got my feet wet with the basics of computer science, databases, and Python. But what truly sparked my passion was a course on semantic publishing—there, I used HTML and CSS to create a webpage dedicated to my favorite figure skater,{" "}
+        As a freshman, I got my feet wet with the basics of computer science, databases, and Python. But what truly sparked my passion was Competitive Programming, I used C++ to solve +300 problems on differents platforms like,{" "}
         <a
-          href="https://en.wikipedia.org/wiki/Yuzuru_Hanyu"
+          href="https://codeforces.com/profile/imem"
           target="_blank"
           className="italic underline"
         >
-          Yuzuru Hanyu.{" "}
+          Leetocde and codeforces.{" "}
         </a>
         This experience opened my eyes to the charm of web development———
         <span className="font-medium italic">
