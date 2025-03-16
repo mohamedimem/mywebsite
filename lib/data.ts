@@ -45,44 +45,37 @@ export const headerLanguageMap = {
 }
 
 export const experiencesData = [
+    
     {
-        title: "MSc in Computing and IT",
-        location: "University of St Andrews, UK",
-        description:
-            "Achieved a Master's degree in Computing and IT, acquiring in-depth knowledge in areas such as Human Computer Interaction, Computer Communication Systems, and Information Security. Developed strong capabilities in computational thinking, user-centred design, and data visualisation, preparing for effective application in technology-driven environments",
-        icon: React.createElement(LuGraduationCap),
-        date: "2023 Sep - 2024 May",
-    },
-    {
-        title: "Frontend Intern",
+        title: "Software Engineering Intern",
         location: React.createElement("span", {},
             React.createElement("a", {
-                href: "https://www.nio.com/",
+                href: "https://ifeda.vercel.app",
                 style: { textDecoration: 'underline' },
                 target: "_blank"
-            }, "NIO Inc."),
-            " Wuhan, China"
+            }, "Ifeda.tn."),
+            " Ariana, Tunisia"
         ),
         description:
-            "Developed NIO's third-generation station list and detail pages using Vue3, TypeScript, and Baidu Maps API. Implemented role-based access control for the Task Wizard page, enhancing system security. Collaborated effectively within a Jira-managed environment, utilizing Jenkins for deployment processes.",
+            "Developed Full stack Mobile Application using Flutter as Front-End, and FireBase as a Backend, Also i was responsible for System Design and Modelling the necessary Component of the mobile application.",
         icon: React.createElement(FaVuejs),
-        date: "2022 Aug - 2022 Dec",
+        date: "2024 Feb - 2024 December",
     },
     {
-        title: "Frontend Assistant",
-        location: "Wuhan University | Wuhan, China",
+        title: "Masters In Computer Science",
+        location: "Higher Institue of Informatics | Tunisia",
         description:
-            "Developed and maintained Finknow, a Financial Knowledge Graph Query and Analysis Platform using umi (React framework) and Ant Design Pro. Utilized graphin, a React toolkit for graph analysis based on G6, to develop an Equity Network Penetration Graph, enhancing data visualization capabilities.",
+            "Graduated with a Masters Degree in Computer Science,Gained foundational knowledge in Machine Learning, AI and modeling.",
         icon: React.createElement(FaReact),
-        date: "2022 May - 2022 July",
+        date: "2023 May - 2025 Juin",
     },
     {
-        title: "BA in Digital Publishing",
-        location: "Wuhan University, China",
+        title: "BS in Computer Science",
+        location: "Higher Institue of Informatics | Tunisia",
         description:
-            "Graduated with a Bachelor of Arts in Digital Publishing, securing a GPA of 3.81/4.0. Gained foundational knowledge in digital media and publishing technologies.",
+            "Graduated with a Bachelor of Computer Science. Gained foundational knowledge in Softwares Engennering.",
         icon: React.createElement(LuGraduationCap),
-        date: "2019 Sep - 2023 Jun",
+        date: "2020 Sep - 2023 Jun",
     },
 
 ]
@@ -174,21 +167,21 @@ export const skillsData = [
     "HTML",
     "CSS",
     "JavaScript",
-    "TypeScript",
-    "React",
-    "Next",
-    "Vue2",
-    "Vue3",
+    "Spring Boot",
+    "Flutter",
+    "Firebase",
+    "SQL",
+    "NoSQL",
+    "UML",
+    "C++",
+    "C",
+    "Java",
+    "Python",
     "Node",
     "Express",
     "Git",
     "Github",
-    "Tailwind",
-    "Chakra UI",
     "Boostrap",
-    "Prisma",
     "MongoDB",
-    "Framer Motion",
-    "d3",
     "UI/UX"
 ] 
