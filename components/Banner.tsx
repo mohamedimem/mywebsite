@@ -20,7 +20,7 @@ export function ImageSection({ images, speed }: BannerProps) {
           <Image
             src={src}
             alt={name}
-            width={150}    // Set the width of the image
+            width={300}    // Set the width of the image
             height={160}   // Set the height of the image
             objectFit="cover"
           />
