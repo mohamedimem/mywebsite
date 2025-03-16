@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin()
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ['plus.unsplash.com'], //
+    domains: ['plus.unsplash.com','github.com','media.licdn.com'], //
     remotePatterns: [
       {
         protocol: "https",

@@ -152,7 +152,7 @@ export default function Intro() {
         </Link>
         <a
           className="bg-white p-3 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://www.linkedin.com/in/joy-yujiepeng/"
+          href="https://www.linkedin.com/in/imemm/"
           target="_blank"
         >
           <BsLinkedin />
@@ -160,17 +160,17 @@ export default function Intro() {
 
         <a
           className="bg-white p-3 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://github.com/Codefreyy"
+          href="https://github.com/mohamedimem"
           target="_blank"
         >
           <FaGithubSquare />
         </a>
         <a
           className=" bg-white py-2 px-3 text-sm text-gray-700 flex items-center gap-2  rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-          href="https://blog-joy-peng.netlify.app"
+          href="https://www.youtube.com/@CodeWithImem"
           target="_blank"
         >
-          {t("blog")}
+          {t("Youtube")}
 
           {/* <FaGithubSquare /> */}
         </a>
