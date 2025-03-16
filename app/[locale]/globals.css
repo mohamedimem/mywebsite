@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* All images */
+img {
+  max-width: 200px;
+  height: 14rem;
+  object-fit: cover;
+  padding: 0 10px;
+  cursor: pointer;
+  border-radius: 8px; 
+}
+/* Wrapper styles */
+.banner-wrapper {
+    width: 100%;
+    height: 14rem;
+    overflow: hidden;
+    border-radius: 15px; /* Rounded corners for the banner */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for a soft effect */
+    position: relative;
+  }
+  
+  /* Banner images wrapper animation */
+  .banner-wrapper .wrapper {
+    display: flex;
+  }
+  
+  /* For the images container (animation) */
+  .banner-wrapper .wrapper .images {
+    display: flex;
+    animation: swipe 10s linear infinite;
+  }
+  
+  /* Hover effect to pause animation */
+  .banner-wrapper:hover .wrapper .images {
+    animation-play-state: paused;
+  }
+  
+  /* Keyframes for swipe animation */
+  @keyframes swipe {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
